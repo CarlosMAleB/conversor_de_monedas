@@ -11,7 +11,7 @@ import static javax.swing.BorderFactory.createLineBorder;
 public class FrmHome extends JFrame {
     private JPanel panel;
     private JLabel lblTitulo, lblLeyenda, lblImageAluraOracle, lblCopyRight;
-    private JButton btnConvertirMoneda, btnConvertirTemperatura, btnSalir;
+    private JButton btnConvertirMoneda, btnSalir;
     private final ImageIcon imgAluraOracle = new ImageIcon(getClass().getResource("/com/alura/conversor/images/aluraoracle.png"));
 
     public FrmHome() {
